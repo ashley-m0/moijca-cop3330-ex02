@@ -15,5 +15,7 @@ class AppTest {
 
         String expectedOutput = "Homer has 5 characters." ;
         String actualOutput = myApp.generateOutput(input, length);
+
+        assertEquals(expectedOutput, actualOutput);
     }
 }
